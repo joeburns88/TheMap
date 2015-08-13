@@ -1,0 +1,18 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto">
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="384dp"
+    android:layout_height="465dp"
+    android:id="@+id/map"
+    tools:context=".TheMap"
+    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+   //map:cameraTargetLat="40"
+   //map:cameraTargetLng="-74"
+    //map:cameraZoom="10"
+
+</LinearLayout>
